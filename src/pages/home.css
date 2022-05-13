@@ -1,0 +1,38 @@
+
+
+.container-home{
+    width: 85vw;
+    margin: 5rem auto;
+}
+
+.container-home h2{
+    font-size: 40px;
+}
+
+.container-list-pokemon{
+    width: 80vw;
+    margin: 4rem auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: .5rem;
+}
+
+
+@media screen and (min-width: 600px) {
+    .container-list-pokemon{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .container-list-pokemon {
+        grid-template-columns: repeat(3, 1fr);
+        width: 70vw;
+    }
+    .container-home{
+        width: 75vw;
+    }
+    
+}

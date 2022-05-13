@@ -1,0 +1,48 @@
+
+.encounter-container{
+    width: 70vw;
+    margin: 10rem auto;
+}
+
+.encounter-container h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.btn-back{
+    border: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color: white;
+}
+
+.card-encounters{
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: .3rem .3rem rgba(0,0,0,0.3);
+
+}
+
+.card-list-encounter{
+    width: 65vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-family: cursive;
+    gap: .5rem;
+}
+
+@media screen and (min-width: 900px) {
+
+    .card-list-encounter{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}

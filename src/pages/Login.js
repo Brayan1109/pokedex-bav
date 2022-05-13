@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import pokeball from "../assets/img/pokeball.png";
 import azLogin from "../assets/img/azLogin.png";
 import send from "../assets/logo/send.png";
